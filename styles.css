@@ -1,20 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #011f3f;
+  overflow-y: hidden;
 }
 
 #level-title {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Montserrat", cursive;
   font-size: 3rem;
-  margin:  5%;
-  color: #FEF2BF;
+  margin: 3%;
+  color: #fef2bf;
 }
 
 .container {
   display: block;
   width: 50%;
   margin: auto;
-
 }
 
 .btn {
@@ -22,7 +29,7 @@ body {
   display: inline-block;
   height: 200px;
   width: 200px;
-  border: 10px solid black;
+  border: 5px solid black;
   border-radius: 20%;
 }
 
